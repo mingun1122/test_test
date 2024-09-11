@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
-    
+html {
+    scroll-behavior: smooth;
 }
 
 a{
@@ -20,7 +22,7 @@ li{
     width: 100%;
     height: 1200px;
 
-    background: linear-gradient(rgba(249, 170, 255, 0.543),rgba(0, 0, 0, 0.622)),url(bg.jpg) no-repeat;
+    background: linear-gradient(rgba(249, 170, 255, 0.39),rgba(0, 0, 0, 0.622)),url(bg.jpg) no-repeat;
     background-size: cover;
 
     color: white;
@@ -103,3 +105,79 @@ li{
     color: black;
     transform: scale(1.1);
 }
+
+.about{
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.about h2 {
+    font-size: 30px;
+    color: #ff6a6a;
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+.about .contents {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+}
+
+.about .left {
+    width: 400px;
+    height: 500px;
+}
+
+.about .left img {
+    width: 400px;
+    height: 500px;
+}
+
+.about .right {
+    width: 800px;
+    height: 500px;
+    padding-left: 10px;
+}
+
+.about .right h3 {
+    font-size: 22px;
+    color: #ff6a6a;
+}
+
+.about .right li {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.fa-brands {
+    font-size: 50px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-brands:hover {
+    transform: scale(1.1);
+}
+
+.left img {
+    transition: 0.3s;
+}
+
+.left img:hover {
+    transform: scale(1.03);
+    border-radius: 40px;
+}
+
