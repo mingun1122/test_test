@@ -169,7 +169,7 @@ li{
 }
 
 .fa-brands:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 .left img {
@@ -180,4 +180,146 @@ li{
     transform: scale(1.03);
     border-radius: 40px;
 }
+
+
+.skills {
+    width: 100%;
+    height: 800px;
+    background-color: #eee;
+
+    padding-top: 100px;
+}
+
+.skills-inner {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.skills h1 {
+    font-size: 50px;
+
+}
+
+.skills h2 {
+    font-size: 30px;
+    color: #ff6a6a;
+}
+
+.skills .contents {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.skills li {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.skills li:hover {
+    background-color: #ff6a6a;
+    color: white;
+    transform: scale(1.05);
+}
+
+.skills h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills i {
+    font-size: 40px;
+}
+
+.bg {
+    width: 100%;
+    height: 800px;
+    background: url(bg2.png) no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+}
+
+.projects {
+    height: 1200px;
+}
+
+.contact {
+    width: 100%;
+    height: 800px;
+
+    margin-top: 100px;
+}
+
+.contact-inner {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: #ff6a6a;
+}
+
+.contact .contents {
+    display: flex;
+}
+
+.contact h1 {
+    font-size: 50px;
+}
+
+.info li {
+    width: 300px;
+    height: 80px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.contact .left {
+    width: 400px;
+    height: 800px;
+}
+
+.contact .right {
+    width: 800px;
+    height: 800px;
+}
+
+.contact h5 {
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.contact input {
+    width: 700px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.contact textarea {
+    width: 700px;
+    height: 300px;
+}
+
+.contact button {
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
 
